@@ -1,0 +1,20 @@
+.pnpm-store
+.vitepress/dist
+.vitepress/cache
+
+.eslintcache
+# compiled output
+dist
+node_modules
+build
+
+# Logs
+logs
+*.log
+pnpm-debug.log*
+
+# OS
+.DS_Store
+
+# IDE - VSCode
+.vscode/*
