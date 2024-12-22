@@ -1,5 +1,4 @@
 {
-  "name": "@company/docs",
   "packageManager": "pnpm@9.15.1",
   "scripts": {
     "dev": "vitepress dev",
