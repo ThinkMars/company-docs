@@ -6,8 +6,8 @@
 
 ## 介绍
 
-- 基于 [Ant Design](https://ant-design-x.antgroup.com). 一个专为 AI chat 设计的 UI 框架。
-- 基于 [Zhipu GLM](https://bigmodel.cn). 清华大学出品的世界上最好的大模型之一。
+- 基于 [Ant Design X](https://ant-design-x.antgroup.com). 一个专为 AI chat 设计的 UI 框架。
+- 基于 [Zhipu GLM（glm-4v）](https://bigmodel.cn). 清华大学出品的世界上最好的大模型之一。
 
 ## 用法
 
