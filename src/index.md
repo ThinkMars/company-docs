@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: 'WEB开源作品集'
-  text: ''
+  name: "WEB开源作品集"
+  text: ""
   tagline: 思路来源于网络各大论坛，仅供学习交流
   actions:
     - theme: brand
@@ -15,7 +15,7 @@ hero:
       link: /products/web-metrics
 
 features:
-  - title: 性能指标监控
+  - title: 页面指标监控
     details: 监控网页相关的性能指标，包括页面加载时间、资源加载时间、网络请求时间等。
   - title: 类GPT对话
     details: 基于现有GLM，提供类似GPT的对话功能，用户可以与网页进行自然语言交互。
