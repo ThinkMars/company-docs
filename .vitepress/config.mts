@@ -10,13 +10,13 @@ export default defineConfig({
       'link',
       {
         rel: 'icon',
-        href: 'https://raw.githubusercontent.com/ThinkMars/company/refs/heads/main/playground/public/favicon.ico',
+        href: '/favicon.ico',
       },
     ],
   ],
   themeConfig: {
     logo: {
-      src: 'https://raw.githubusercontent.com/ThinkMars/company/refs/heads/main/playground/public/company.png',
+      src: '/company.png',
       width: 24,
       height: 24,
     },
