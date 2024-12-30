@@ -24,4 +24,4 @@ pnpm dev
 
 ## 预览
 
-![example](https://raw.githubusercontent.com/ThinkMars/company/refs/heads/main/packages/want-chat/public/want-chat-example.png)
+![example](/want-chat-example.png)
