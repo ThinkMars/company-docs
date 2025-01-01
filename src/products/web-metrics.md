@@ -1,35 +1,33 @@
 # 页面指标监控工具
 
+监控收集 web 数据，生成指标。支持搜集的指标有：js 错误、vue 错误、资源错误、路由变化、http 请求、性能指标、自定义监控指标等。
+
 ## 仓库
 
 [web-metrics](https://github.com/ThinkMars/company/tree/main/packages/web-metrics)
 
-## 介绍
-
-监控收集web数据，生成指标。
-
 ## 安装
 
-⚠️注意: 本项目未选择发布到npm，请内部学习使用。
+⚠️ 注意: 本项目未选择发布到 npm，请内部学习使用。可克隆本仓库于本地启动。
 
-## 用法
+## 使用
 
 ```js
-import { createMonitor, MetricsType } from '@company/web-metrics'
+import { createMonitor, MetricsType } from "@company/web-metrics";
 
 const monitor = createMonitor({
-  projectId: 'my-project', // 项目ID
-  serverUrl: 'http://localhost:3000/api/track', // 服务端地址
-  userId: '123456', // 用户唯一性ID，如果没有，将自动生成一个deviceId
-})
+  projectId: "my-project", // 项目ID
+  serverUrl: "http://localhost:3000/api/track", // 服务端地址
+  userId: "123456", // 用户唯一性ID，如果没有，将自动生成一个deviceId
+});
 
 // 自定义抓取错误
 monitor.track({
-  eventName: 'your_event_name',
+  eventName: "your_event_name",
   data: {
-    button: 'submit',
+    button: "submit",
   },
-})
+});
 ```
 
 ## API
@@ -62,18 +60,18 @@ track(eventName: string, eventType?: MetricsType, data?: object);
 ```ts
 interface MonitorConfig {
   // 你的项目id
-  projectId: string
+  projectId: string;
   // 服务端接收数据的地址
-  serverUrl?: string
+  serverUrl?: string;
   // 你的用户唯一性ID，如果没有，将自动生成一个deviceId
-  userId?: string | number
+  userId?: string | number;
   // 白名单，当url不在白名单中时，将不会进行上报
-  whiteURLList?: string[]
+  whiteURLList?: string[];
   // debug模式下，数据将打印到控制台，而不是发送到服务器，可用于本地调试。
-  debug?: boolean
+  debug?: boolean;
   // 是否使用图片发送数据，默认为false。
   // 如果设置为false，将首先使用navigator.sendBeacon发送数据。
-  useImg?: boolean
+  useImg?: boolean;
 }
 ```
 
@@ -81,13 +79,13 @@ interface MonitorConfig {
 
 ```ts
 export enum MetricsType {
-  Performance = 'performance',
-  VueJsError = 'vueJsError',
-  JSError = 'jsError',
-  UnHandleRejectionError = 'unHandleRejectionError',
-  ResourceError = 'resourceError',
-  HttpRequest = 'httpRequest',
-  RouterChange = 'routerChange',
-  Custom = 'custom',
+  Performance = "performance",
+  VueJsError = "vueJsError",
+  JSError = "jsError",
+  UnHandleRejectionError = "unHandleRejectionError",
+  ResourceError = "resourceError",
+  HttpRequest = "httpRequest",
+  RouterChange = "routerChange",
+  Custom = "custom",
 }
 ```

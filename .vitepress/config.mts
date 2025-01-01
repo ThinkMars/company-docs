@@ -59,6 +59,7 @@ export default defineConfig({
           items: [
             { text: '页面指标监控', link: '/products/web-metrics' },
             { text: '聊天GPT', link: '/products/want-chat' },
+            { text: '自由主题配置球', link: '/products/free-theme-ball' },
           ],
         },
       ],
