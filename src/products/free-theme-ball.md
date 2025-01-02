@@ -38,6 +38,8 @@ app.mount("#app");
 
 为了减少对代码的侵入，提供了浏览器插件版本，可以下载插件直接使用。
 
+![example](/free-theme-extension.png)
+
 ## 示例
 
 1. 预制几套业界认证的主题色。
