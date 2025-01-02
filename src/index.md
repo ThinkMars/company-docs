@@ -38,6 +38,8 @@ features:
     details: 使用Nginx实现反向代理与负载均衡。
   - title: 全栈开发
     details: 使用Node与Java参与后端服务、ORM、日志、消息、数据库等。
+  - title: AI工具加持
+    details: AI编辑器与插件加速产品开发。
   - title: 更多
     details: 更多功能请许愿。
 ---
@@ -47,6 +49,9 @@ features:
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #14C9C9, #9254DE);
+  --vp-c-brand-3: #9254DE;
+  --vp-c-brand-2: rgba(146, 84, 222, 0.8);
+  --vp-c-brand-1: #9254DE;
 }
 
 .tagline {
@@ -57,7 +62,7 @@ features:
 }
 
 body {
-  font-family: 'Monaco', sans-serif, system-ui, 'Microsoft YaHei' ;
+  font-family: 'Monaco', sans-serif, system-ui, 'Microsoft YaHei';
 }
 </style>
 
