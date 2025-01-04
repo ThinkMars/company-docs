@@ -3,18 +3,18 @@
 layout: home
 
 hero:
-  name: "一个产品，一个公司"
+  name: "谁™把公司开源了?"
   text: ""
   tagline: <span class="tagline">有人想把GitHub搬进公司，也有人想把公司搬上GitHub</span>
   actions:
     - theme: brand
-      text: 是什么？
+      text: 什么?
       link: /introduction/what
     - theme: alt
-      text: 作品列表
+      text: 老子的项目
       link: /products/web-metrics
     - theme: alt
-      text: GitHub
+      text: 你都放GitHub了?
       link: https://github.com/ThinkMars/company
 
 features:
