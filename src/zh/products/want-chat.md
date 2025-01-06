@@ -18,4 +18,4 @@
 
 ## 示例
 
-![example](/want-chat-example.png)
+<img src="/want-chat-example.png" style="border-radius: 8px;"></img>

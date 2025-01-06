@@ -1,67 +1,23 @@
-import { defineConfig } from 'vitepress'
+import { DefaultTheme, defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: 'Company',
-  description: 'collect more enterprise products',
-  srcDir: 'src',
-  head: [
-    [
-      'link',
-      {
-        rel: 'icon',
-        href: '/favicon.ico',
-      },
-    ],
-    [
-      'link',
-      { href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap', rel: 'stylesheet' }
-    ]
-  ],
+export const zh = defineConfig({
+  lang: 'zh-CN',
   themeConfig: {
-    logo: {
-      src: '/company.png',
-      width: 24,
-      height: 24,
-    },
     nav: [
-      { text: '管理后台', link: '' },
-      { text: 'Web', link: '' },
-      { text: 'APP', link: '' },
-      { text: '小程序', link: '' }
+      { text: '管理后台', link: 'https://company-admin.thinkmars.cn' },
+      { text: 'Web', link: 'https://company-web.thinkmars.cn' },
+      { text: '更多平台', link: 'https://company-app.thinkmars.cn' },
     ],
-    search: {
-      provider: 'local',
-      options: {
-        locales: {
-          zh: {
-            translations: {
-              button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档'
-              },
-              modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换'
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     docFooter: {
       prev: '上一个',
       next: '下一个',
     },
     sidebar: {
-      '/': [
+      '/products': [
         {
           text: '介绍',
-          items: [{ text: '是什么', link: '/introduction/what' }],
+          items: [{ text: '是什么', link: '/products/introduction' }],
         },
         {
           text: '前端',
@@ -75,10 +31,20 @@ export default defineConfig({
         {
           text: '后端',
           items: [
+            { text: '服务设计', link: '/products/services' },
+            { text: 'CICD', link: '/products/CICD' },
             { text: '负载均衡', link: '/products/nginx' },
             { text: '容器化', link: '/products/docker' },
             { text: 'API网关', link: '/products/gateway' },
-            { text: '服务设计', link: '/products/services' },
+
+          ],
+        },
+      ],
+      '/others/': [
+        {
+          text: '其他',
+          items: [
+
           ],
         },
       ],
@@ -89,9 +55,6 @@ export default defineConfig({
       copyright:
         'Copyright © 2024-present <a href="https://github.com/ThinkMars" target="_blank">ThinkMars</a>',
     },
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/ThinkMars/company', ariaLabel: 'GitHub' },
-    ],
     outline: {
       label: '页面导航'
     },
@@ -107,6 +70,24 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到暗黑主题',
     returnToTopLabel: '返回顶部',
     sidebarMenuLabel: '菜单',
-    externalLinkIcon: true,
   },
 })
+
+export const zhSearch: DefaultTheme.LocalSearchOptions['locales'] = {
+  zh: {
+    translations: {
+      button: {
+        buttonText: '搜索文档',
+        buttonAriaLabel: '搜索文档'
+      },
+      modal: {
+        noResultsText: '无法找到相关结果',
+        resetButtonTitle: '清除查询条件',
+        footer: {
+          selectText: '选择',
+          navigateText: '切换'
+        }
+      }
+    }
+  }
+}
