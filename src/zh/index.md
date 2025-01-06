@@ -3,44 +3,41 @@
 layout: home
 
 hero:
-  name: "谁™把公司开源了?"
+  name: "一个企业级产品"
   text: ""
-  tagline: <span class="tagline">有人想把GitHub搬进公司，也有人想把公司搬上GitHub</span>
+  tagline: <span class="tagline">带你更全面地了解企业Web技术架构</span>
   actions:
     - theme: brand
-      text: 什么?
-      link: /introduction/what
+      text: 是什么?
+      link: /products/introduction
     - theme: alt
-      text: 老子的项目
+      text: 项目列表
       link: /products/web-metrics
-    - theme: alt
-      text: 你都放GitHub了?
-      link: https://github.com/ThinkMars/company
 
 features:
-  - title: 类GPT对话产品
+  - title: 🤖 类GPT对话产品
     details: 基于智谱开源GLM大模型，提供类似GPT的文本问答对话功能。
-  - title: CI-CD
+  - title: 🔄 CI-CD
     details: 提供持续集成和持续部署功能，确保代码质量和项目稳定性。
-  - title: 页面指标监控
+  - title: 📊 页面指标监控
     details: 监控页面性能数据、访问数据、资源加载时间、网络请求时间等。
-  - title: 自由主题色切换
+  - title: 🎨 自由主题色切换
     details: 快速实时切换主题色，实现个性化、辅助设计快速决策。
-  - title: CMS管理后台
+  - title: ⚙️ CMS管理后台
     details: 管理产品相关配置、用户权限、代码发布运维、指标监控可视化等。
-  - title: npm仓库
+  - title: 📦 npm仓库
     details: 提供代码托管服务，支持私有仓库和团队协作。
-  - title: 多端支持
+  - title: 📱 多端支持
     details: 支持web、APP、小程序。
-  - title: 容器化
+  - title: 🐳 容器化
     details: 使用Docker、K8s、私有DockerHub等。
-  - title: 负载均衡
+  - title: ⚖️ 负载均衡
     details: 使用Nginx实现反向代理与负载均衡。
-  - title: 全栈开发
+  - title: 🔧 全栈开发
     details: 使用Node与Java参与后端服务、ORM、日志、消息、数据库等。
-  - title: AI工具加持
+  - title: 🧠 AI工具加持
     details: AI编辑器与插件加速产品开发。
-  - title: 更多
+  - title: ✨ 更多
     details: 更多功能请许愿。
 ---
 
@@ -62,7 +59,7 @@ features:
 }
 
 body {
-  font-family: 'Monaco', sans-serif, system-ui, 'Microsoft YaHei';
+  font-family: sans-serif, system-ui, 'Microsoft YaHei';
 }
 </style>
 

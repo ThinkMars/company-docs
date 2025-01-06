@@ -38,14 +38,14 @@ app.mount("#app");
 
 为了减少对代码的侵入，提供了浏览器插件版本，可以下载插件直接使用。
 
-![example](/free-theme-extension.png)
+<img src="/free-theme-extension.png" style="border-radius: 8px; border: 1px solid #ddd"></img>
 
 ## 示例
 
 1. 预制几套业界认证的主题色。
 
-![example](/free-theme-ball.png)
+<img src="/free-theme-ball.png" style="border-radius: 8px; border: 1px solid #ddd"></img>
 
 2. 如果想更自由选择主题色预览，可以手动输入色值、调色板选择色值、吸管吸取别家好看的色值等。
 
-![example](/free-theme-ball2.png)
+<img src="/free-theme-ball2.png" style="border-radius: 8px; border: 1px solid #ddd"></img>
