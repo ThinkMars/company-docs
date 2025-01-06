@@ -53,7 +53,7 @@ export const zh = defineConfig({
       message:
         '基于 <a href="https://github.com/ThinkMars/company/blob/main/LICENSE" target="_blank">MIT License</a> 许可发布，如有侵权，请联系删除',
       copyright:
-        'Copyright © 2024-present <a href="https://github.com/ThinkMars" target="_blank">ThinkMars</a>',
+        `Copyright © 2024-${new Date().getFullYear()} <a href="https://github.com/ThinkMars" target="_blank">ThinkMars</a>`,
     },
     outline: {
       label: '页面导航'
