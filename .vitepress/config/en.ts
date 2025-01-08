@@ -5,9 +5,9 @@ export const en = defineConfig({
   lang: 'en-US',
   themeConfig: {
     nav: [
-      { text: 'Admin Dashboard', link: 'https://company-admin.thinkmars.cn' },
-      { text: 'Web', link: 'https://company-web.thinkmars.cn' },
-      { text: 'More Platforms', link: 'https://company-app.thinkmars.cn' },
+      { text: 'Admin Dashboard', link: 'https://admin.company.thinkmars.cn' },
+      { text: 'Web', link: 'https://wantchat.company.thinkmars.cn' },
+      { text: 'More Platforms', link: 'https://app.company.thinkmars.cn' },
     ],
     sidebar: {
       '/en/product': [

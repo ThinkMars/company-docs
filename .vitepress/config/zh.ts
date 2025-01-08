@@ -5,9 +5,9 @@ export const zh = defineConfig({
   lang: 'zh-CN',
   themeConfig: {
     nav: [
-      { text: '管理后台', link: 'https://company-admin.thinkmars.cn' },
-      { text: 'Web', link: 'https://company-web.thinkmars.cn' },
-      { text: '更多平台', link: 'https://company-app.thinkmars.cn' },
+      { text: '管理后台', link: 'https://admin.company.thinkmars.cn' },
+      { text: 'Web', link: 'https://wantchat.company.thinkmars.cn' },
+      { text: '更多平台', link: 'https://app.company.thinkmars.cn' },
     ],
     docFooter: {
       prev: '上一个',
