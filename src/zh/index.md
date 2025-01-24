@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 是什么?
-      link: /products/introduction
+      link: /zh/products/introduction
     - theme: alt
       text: 项目列表
-      link: /products/web-metrics
+      link: /zh/products/web-metrics
 
 features:
   - title: 🤖 类GPT对话产品

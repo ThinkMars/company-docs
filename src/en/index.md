@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: What?
-      link: /en/products/introduction
+      link: /products/introduction
     - theme: alt
       text: Projects
-      link: /en/products/web-metrics
+      link: /products/web-metrics
 
 features:
   - title: 🤖 GPT-like Chat Product
