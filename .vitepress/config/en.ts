@@ -45,7 +45,7 @@ export const en = defineConfig({
     },
     footer: {
       message:
-        'Released under <a href="https://github.com/ThinkMars/company/blob/main/LICENSE" target="_blank">MIT License</a>. Please contact for removal if any infringement.',
+        'Released under <a href="https://github.com/ThinkMars/company/blob/main/LICENSE" target="_blank">MIT License</a>',
       copyright:
         `Copyright © 2024-${new Date().getFullYear()} <a href="https://github.com/ThinkMars" target="_blank">ThinkMars</a>`,
     },
