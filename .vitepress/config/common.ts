@@ -9,7 +9,7 @@ export const commonConfig = defineConfig({
   cleanUrls: true,
   // 路径重定向
   rewrites: {
-    'zh/:rest*': ':rest*'
+    'en/:rest*': ':rest*'
   },
   head: [
     [

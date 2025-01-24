@@ -10,32 +10,32 @@ export const en = defineConfig({
       { text: 'More Platforms', link: 'https://app.company.thinkmars.cn' },
     ],
     sidebar: {
-      '/en/product': [
+      'product': [
         {
           text: 'Introduction',
-          items: [{ text: 'What is it', link: '/en/products/introduction' }],
+          items: [{ text: 'What is it', link: '/products/introduction' }],
         },
         {
           text: 'Frontend',
           items: [
-            { text: 'Page Metrics Monitoring', link: '/en/products/web-metrics' },
-            { text: 'Chat GPT', link: '/en/products/want-chat' },
-            { text: 'Free Theme Configuration', link: '/en/products/free-theme-ball' },
-            { text: 'CMS Admin Dashboard', link: '/en/products/management' },
+            { text: 'Page Metrics Monitoring', link: '/products/web-metrics' },
+            { text: 'Chat GPT', link: '/products/want-chat' },
+            { text: 'Free Theme Configuration', link: '/products/free-theme-ball' },
+            { text: 'CMS Admin Dashboard', link: '/products/management' },
           ],
         },
         {
           text: 'Backend',
           items: [
-            { text: 'Service Design', link: '/en/products/services' },
-            { text: 'CICD', link: '/en/products/CICD' },
-            { text: 'Load Balancing', link: '/en/products/nginx' },
-            { text: 'Containerization', link: '/en/products/docker' },
-            { text: 'API Gateway', link: '/en/products/gateway' },
+            { text: 'Service Design', link: '/products/services' },
+            { text: 'CICD', link: '/products/CICD' },
+            { text: 'Load Balancing', link: '/products/nginx' },
+            { text: 'Containerization', link: '/products/docker' },
+            { text: 'API Gateway', link: '/products/gateway' },
           ],
         },
       ],
-      '/en/others/': [
+      'others': [
         {
           text: 'Others',
           items: [

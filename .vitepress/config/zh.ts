@@ -14,33 +14,33 @@ export const zh = defineConfig({
       next: '下一个',
     },
     sidebar: {
-      '/products': [
+      '/zh/products': [
         {
           text: '介绍',
-          items: [{ text: '是什么', link: '/products/introduction' }],
+          items: [{ text: '是什么', link: '/zh/products/introduction' }],
         },
         {
           text: '前端',
           items: [
-            { text: '页面指标监控', link: '/products/web-metrics' },
-            { text: '聊天GPT', link: '/products/want-chat' },
-            { text: '自由主题配置球', link: '/products/free-theme-ball' },
-            { text: 'CMS管理后台', link: '/products/management' },
+            { text: '页面指标监控', link: '/zh/products/web-metrics' },
+            { text: '聊天GPT', link: '/zh/products/want-chat' },
+            { text: '自由主题配置球', link: '/zh/products/free-theme-ball' },
+            { text: 'CMS管理后台', link: '/zh/products/management' },
           ],
         },
         {
           text: '后端',
           items: [
-            { text: '服务设计', link: '/products/services' },
-            { text: 'CICD', link: '/products/CICD' },
-            { text: '负载均衡', link: '/products/nginx' },
-            { text: '容器化', link: '/products/docker' },
-            { text: 'API网关', link: '/products/gateway' },
+            { text: '服务设计', link: '/zh/products/services' },
+            { text: 'CICD', link: '/zh/products/CICD' },
+            { text: '负载均衡', link: '/zh/products/nginx' },
+            { text: '容器化', link: '/zh/products/docker' },
+            { text: 'API网关', link: '/zh/products/gateway' },
 
           ],
         },
       ],
-      '/others/': [
+      '/zh/others/': [
         {
           text: '其他',
           items: [
