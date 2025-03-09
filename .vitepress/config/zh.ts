@@ -6,7 +6,7 @@ export const zh = defineConfig({
   themeConfig: {
     nav: [
       { text: '管理后台', link: 'https://admin.company.thinkmars.cn' },
-      { text: 'Web', link: 'https://wantchat.company.thinkmars.cn' },
+      { text: '网页端', link: 'https://wantchat.company.thinkmars.cn' },
       { text: '更多平台', link: 'https://app.company.thinkmars.cn' },
     ],
     docFooter: {
@@ -24,7 +24,7 @@ export const zh = defineConfig({
           items: [
             { text: '页面指标监控', link: '/zh/products/web-metrics' },
             { text: '聊天GPT', link: '/zh/products/want-chat' },
-            { text: '自由主题配置球', link: '/zh/products/free-theme-ball' },
+            // { text: '自由主题配置球', link: '/zh/products/free-theme-ball' },
             { text: 'CMS管理后台', link: '/zh/products/management' },
           ],
         },
