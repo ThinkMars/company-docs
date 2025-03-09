@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "一个企业级产品"
+  name: "一个产品"
   text: ""
   tagline: <span class="tagline">带你更全面地了解企业Web技术架构</span>
   actions:
@@ -21,8 +21,8 @@ features:
     details: 提供持续集成和持续部署功能，确保代码质量和项目稳定性。
   - title: 📊 页面指标监控
     details: 监控页面性能数据、访问数据、资源加载时间、网络请求时间等。
-  - title: 🎨 自由主题色切换
-    details: 快速实时切换主题色，实现个性化、辅助设计快速决策。
+  # - title: 🎨 自由主题色切换
+  #   details: 快速实时切换主题色，实现个性化、辅助设计快速决策。
   - title: ⚙️ CMS管理后台
     details: 管理产品相关配置、用户权限、代码发布运维、指标监控可视化等。
   - title: 📦 npm仓库

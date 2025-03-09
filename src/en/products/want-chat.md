@@ -1,4 +1,4 @@
-# ChatGPT-like UI Interface
+# ChatGPT-like Product WantChat
 
 Based on open-source large language models, providing basic text Q&A interaction functionality.
 
@@ -8,9 +8,7 @@ Based on open-source large language models, providing basic text Q&A interaction
 
 ## Features
 
-- 🎨 Based on [Ant Design X](https://ant-design-x.antgroup.com) - Modern UI framework built specifically for AI chat.
 - 🧠 Based on [Zhipu GLM (glm-4v)](https://bigmodel.cn) - State-of-the-art large language model developed by Tsinghua University.
-- ⚡️ Developed entirely using [Cursor](https://www.cursor.com) - Revolutionary AI-powered code editor.
 
 ## Installation
 

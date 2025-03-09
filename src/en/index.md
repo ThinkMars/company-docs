@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "An Enterprise-Grade Product"
+  name: "An Product"
   text: ""
   tagline: <span class="tagline">A comprehensive guide to enterprise web architecture</span>
   actions:
@@ -21,8 +21,8 @@ features:
     details: Provides continuous integration and continuous deployment to ensure code quality and project stability.
   - title: 📊 Page Metrics Monitoring
     details: Monitors page performance data, access data, resource loading time, network request time, etc.
-  - title: 🎨 Free Theme Color Switching
-    details: Quickly switch theme colors in real-time for personalization and rapid design decisions.
+  # - title: 🎨 Free Theme Color Switching
+  #   details: Quickly switch theme colors in real-time for personalization and rapid design decisions.
   - title: ⚙️ CMS Management Backend
     details: Manage product configurations, user permissions, code deployment, and metrics visualization.
   - title: 📦 npm Registry

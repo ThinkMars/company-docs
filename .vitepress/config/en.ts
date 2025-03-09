@@ -19,8 +19,8 @@ export const en = defineConfig({
           text: 'Frontend',
           items: [
             { text: 'Page Metrics Monitoring', link: '/products/web-metrics' },
-            { text: 'Chat GPT', link: '/products/want-chat' },
-            { text: 'Free Theme Configuration', link: '/products/free-theme-ball' },
+            { text: 'WantChat', link: '/products/want-chat' },
+            // { text: 'Free Theme Configuration', link: '/products/free-theme-ball' },
             { text: 'CMS Admin Dashboard', link: '/products/management' },
           ],
         },
