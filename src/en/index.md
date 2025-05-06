@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "An Product"
+  name: "A Full-Stack Product"
   text: ""
   tagline: <span class="tagline">A comprehensive guide to enterprise web architecture</span>
   actions:
